@@ -34,3 +34,12 @@ python -m unittest discover -s tests -v
 ```
 
 MIT licensed.
+
+
+## v0.1.1
+
+**Cross-framework failure clustering.** Parsing now recognizes Go and Rust failures in addition to existing formats, while shape signatures cluster variable instances without losing exact fingerprints.
+
+```bash
+PYTHONPATH=src python -m unittest discover -s tests -v
+```
