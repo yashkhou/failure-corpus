@@ -1,0 +1,5 @@
+FAILED tests/test_api.py::test_retry - AssertionError: expected 2 retries, got 3
+/path/app.py:42: AssertionError
+
+ ● queue worker › retries transient errors
+   Expected 2 but received 3
