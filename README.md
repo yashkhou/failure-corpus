@@ -1,3 +1,9 @@
+> [!IMPORTANT]
+> **This project now lives in [agent-reliability-lab](https://github.com/yashkhou/agent-reliability-lab/tree/main/packages/failure-corpus).** Its full history was moved there and this repository is archived.
+>
+> `pip install "git+https://github.com/yashkhou/agent-reliability-lab#subdirectory=packages/failure-corpus"`
+
+
 # failure-corpus
 
 Turn noisy test and agent logs into a deduplicated failure corpus that can feed regression and eval suites.
